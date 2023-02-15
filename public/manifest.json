@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Crudnews",
+  "name": "Crudnews Notícias",
   "icons": [
     {
       "src": "favicon.ico",
