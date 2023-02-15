@@ -4,13 +4,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 import logo from './crudlogo.png';
+import { Link } from 'react-router-dom';
 
 function SiteNavbar({ siteName }) {
   return (
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
             <img
               src={logo}
               width="80"
@@ -19,11 +20,13 @@ function SiteNavbar({ siteName }) {
               alt="Crudnews logo"
             />
           </Navbar.Brand>
-          <Navbar.Brand href="#home" class="text-uppercase fw-bold text-white text-lg underline-a">{siteName}</Navbar.Brand>
+          <Link to={`/`} style={{ textDecoration: 'none' }}>
+          <Navbar.Brand class="text-uppercase fw-bold text-white text-lg underline-a">{siteName}</Navbar.Brand>
+          </Link>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Link to={`/`} style={{ textDecoration: 'none' }}>
+            <Nav.Link>Home</Nav.Link>
+            </Link>
           </Nav>
         </Container>
       </Navbar>

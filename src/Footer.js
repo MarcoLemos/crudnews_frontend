@@ -5,15 +5,14 @@ import './App.css';
 
 function Footer({ phone, email }) {
   return (
-    <footer class="bg-dark py-4 mt-5">
-            <div class="container-fluid text-white">
+    <footer class="footer-teste bg-dark py-4 mt-5 ">
+            <div class="container-fluid justify-content-center text-white">
                 <div class="row justify-content-center">
                     <div class="col text-left">
-                        <h5 class="text-uppercase fw-bold">Quem somos</h5>
+                        <h5 class="text-uppercase fw-bold">Lorem</h5>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Aliquam dui nibh, vulputate sagittis orci porta, fringilla pretium massa.
-                            Vestibulum tristique iaculis velit, sed vestibulum lectus dapibus in.
                         </p>
                     </div>
 
