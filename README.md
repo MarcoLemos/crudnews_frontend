@@ -20,3 +20,11 @@ Em desenvolvimento.
 ### `npm run build`
 
 Script para rodar a aplicação versão de produção.
+
+## Para iniciar a imagem docker 
+
+docker-compose up -d --build
+
+## Parar o container
+
+docker-compose down 
