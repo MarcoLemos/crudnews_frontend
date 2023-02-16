@@ -5,7 +5,7 @@ import './App.css';
 
 function Footer({ phone, email }) {
   return (
-    <footer class="footer-teste bg-dark py-4 mt-5 ">
+    <footer class="fixed-botton bg-dark py-4 mt-5 ">
             <div class="container-fluid justify-content-center text-white">
                 <div class="row justify-content-center">
                     <div class="col text-left">
